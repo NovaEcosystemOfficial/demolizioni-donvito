@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Local tooling
+node_modules/
+.firebase/
+.vercel/
